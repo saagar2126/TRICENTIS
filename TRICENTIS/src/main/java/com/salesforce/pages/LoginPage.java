@@ -10,6 +10,8 @@ public class LoginPage extends ProjectSpecificMethods{
 		return this;
 	}
 	
+	//updated comment
+	
 	public LoginPage enterUsername(String data) {
 		clearAndType(locateElement(Locators.ID, "Email"), data);
 		reportStep(data+" entered successfully","pass");
